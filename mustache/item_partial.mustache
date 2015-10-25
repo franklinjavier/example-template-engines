@@ -1,6 +1,8 @@
 <li>
+  {{#data}}
   <label for="item_{{@index}}">
-    <input id="item_{{@index}}" type="checkbox" {{#checked}}checked{{/checked}}/>
+    <strong>{{display_name}}</strong>: 
     <span>{{title}}</span>
   </label>
+  {{/data}}
 </li>

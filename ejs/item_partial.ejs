@@ -1,6 +1,6 @@
 <li>
   <label for="item_<%= index %>">
-    <input id="item_<%= index %>" type="checkbox" <%= item.checked ? "checked" : "" %>/>
-    <span><%= item.title %></span>
+    <strong><%= item.data.display_name %></strong> :
+    <span><%= item.data.title %></span>
   </label>
 </li>

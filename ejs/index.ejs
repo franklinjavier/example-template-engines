@@ -5,13 +5,11 @@
 
   <body>
     <h1>EJS Template Example</h1>
-
+    <p><a href="/">back</a></p>
     <ul class="todos">
       <% todos.forEach(function(item, index) { %>
         <% include item_partial %>
       <% }) %>
     </ul>
-    <p><a href="/">back</a></p>
   </body>
 </html>
-
